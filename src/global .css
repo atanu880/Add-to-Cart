@@ -1,0 +1,67 @@
+
+
+
+h2{
+    margin-left: 500px;
+    border: 2px solid black;
+    width: fit-content;
+    border-radius: 12px;
+    color: whitesmoke;
+    background-color: blue;
+}
+p{
+    font-weight: bold;
+}
+.Mainblock{
+    border: 2px solid green;
+    height: 400px;
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    position: relative;
+    left: 200px;
+    background-color: lightpink;
+    border-radius: 20px;
+
+
+}
+.Product{
+    height:185px ;
+    width: 150px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 100px;
+    
+}
+.btnblock{
+    display: flex;
+    justify-content:space-between ;
+    align-items:center ;
+    position: relative;
+    left: 40px;
+    top: 5px;
+
+}
+.imgblock{
+    position: relative;
+    left: 40px;
+    border: hidden;
+
+}
+#img{
+    width: 145px;
+}
+.Payment h4{
+    font-weight: lighter;
+}
+.Payment{
+    position: relative;
+    left: 100px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: aliceblue;
+
+}
