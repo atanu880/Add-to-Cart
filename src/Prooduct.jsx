@@ -2,7 +2,7 @@ import React from "react"
 import {useState} from "react"
 import Payment from "./Paaymeent.jsx"
 const Product=()=>{
-    let[count,setCount]=useState(1)
+    let[count,setCount]=useState(0)
     return(
         <div className="Product">
             <div>
@@ -19,17 +19,19 @@ const Product=()=>{
                 // else{
                 //     alert("should be more than one")
                 // }
-                {(count)>0?setCount(count-1):alert("should be more than one")} // instead of if else i can use turnery operator//
+                {(count)>1?setCount(count-1):alert("should be more than 1")} // instead of if else i can use turnery operator//
             }}>--</button>
-            <h1>{count}</h1>
+            <h1 id="number" >{count}</h1>
             <button onClick={()=>{
                 setCount(count+1)
             }}>++</button>
 
             </div>
 
-            </div>
-            <Payment data={count}/>
+            </div >
+            
+            <Payment data={count}/> 
+            {/*pass the data from here*/}
         </div>
     )
 }

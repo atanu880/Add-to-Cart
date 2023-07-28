@@ -21,15 +21,14 @@ p{
     width: 800px;
     position: relative;
     left: 200px;
-    background-color: lightpink;
-    border-radius: 20px;
+    background-color: black;
+    border-radius: 30px;
 
 
 }
 .Product{
     height:185px ;
-    width: 150px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     position: relative;
@@ -41,27 +40,31 @@ p{
     justify-content:space-between ;
     align-items:center ;
     position: relative;
-    left: 40px;
-    top: 5px;
+    bottom: 2px;
+    left: 100px;
+
+    
 
 }
 .imgblock{
-    position: relative;
-    left: 40px;
-    border: hidden;
+   
+    margin-left: 200px;
 
 }
-#img{
-    width: 145px;
-}
+
 .Payment h4{
     font-weight: lighter;
+    padding: 10px;
 }
 .Payment{
-    position: relative;
-    left: 100px;
-    border: 1px solid black;
-    border-radius: 15px;
-    background-color: aliceblue;
 
+    color: white;
+    margin-left: 300px;
+    border: 1px solid white;
+    border-radius: 25px;
+     background-color: rgba(226, 226, 3, 0.795);
+}
+
+#number{
+    color: aliceblue;
 }
