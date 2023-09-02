@@ -1,19 +1,15 @@
-import React from "react"
-import Product from "./Prooduct.jsx"
-import "./global .css"
+import React from 'react'
+import Product from './Product'
+import './global.css'
 
+const App = () => {
+  return (
+    <div>
+    
+    <Product/>
+    </div>
 
-const App=()=>{
-    return(
-        <>
-        <h2>Add to Cart</h2>
-        <div className="Mainblock" >
-
-            <Product/>
-        </div>
-        </>
-    )
-
+  )
 }
-export default App
 
+export default App
